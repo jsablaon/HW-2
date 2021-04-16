@@ -1,0 +1,48 @@
+/* #gradient1 {
+    height:40px;
+    background-color: red;  For browsers that do not support gradients 
+    background-image: linear-gradient(red, yellow);  Standard syntax (must be last) 
+  } 
+*/
+
+#secondScreen {
+    display: none;
+}
+
+#shuffleButton {
+    display: none;
+}
+
+#initialScreen {
+    height:200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+}
+
+#secondScreen {
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    height:200px;
+    transition: width 2s, height 2s, transform 2s;
+    background-color: rgb(51, 255, 0); /* For browsers that do not support gradients */
+    background-image: linear-gradient( yellow,rgb(0, 255, 179)); /*Standard syntax (must be last) */
+}
+
+#secondScreen:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+#secondUl{
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    height:200px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#secondUl:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
